@@ -1,0 +1,21 @@
+# ninja log v5
+0	27	1733252746589906519	stamp/googletest-mkdir	505e21bf530ee122
+0	27	1733252746589906519	/Users/gayathriaravindan/Desktop/Portfolio/CPP/op-mem-allocator/cmake-build-debug/external/benchmark/third_party/googletest/stamp/googletest-mkdir	505e21bf530ee122
+27	1138	1733252747701528764	stamp/googletest-download	1721500bbc0c1d0f
+27	1138	1733252747701528764	/Users/gayathriaravindan/Desktop/Portfolio/CPP/op-mem-allocator/cmake-build-debug/external/benchmark/third_party/googletest/stamp/googletest-download	1721500bbc0c1d0f
+1138	1186	0	stamp/googletest-update	56c4a409545cf484
+1138	1186	0	/Users/gayathriaravindan/Desktop/Portfolio/CPP/op-mem-allocator/cmake-build-debug/external/benchmark/third_party/googletest/stamp/googletest-update	56c4a409545cf484
+1186	1201	1733252747764301929	stamp/googletest-patch	e0c2ea7faf4be383
+1186	1201	1733252747764301929	/Users/gayathriaravindan/Desktop/Portfolio/CPP/op-mem-allocator/cmake-build-debug/external/benchmark/third_party/googletest/stamp/googletest-patch	e0c2ea7faf4be383
+1201	1219	1733252747781891723	stamp/googletest-configure	94c466933557ad24
+1201	1219	1733252747781891723	/Users/gayathriaravindan/Desktop/Portfolio/CPP/op-mem-allocator/cmake-build-debug/external/benchmark/third_party/googletest/stamp/googletest-configure	94c466933557ad24
+1219	1235	1733252747797767881	stamp/googletest-build	7863bc4baa2d61c
+1219	1235	1733252747797767881	/Users/gayathriaravindan/Desktop/Portfolio/CPP/op-mem-allocator/cmake-build-debug/external/benchmark/third_party/googletest/stamp/googletest-build	7863bc4baa2d61c
+1235	1251	1733252747814282042	stamp/googletest-install	5624a90c4a50e798
+1235	1251	1733252747814282042	/Users/gayathriaravindan/Desktop/Portfolio/CPP/op-mem-allocator/cmake-build-debug/external/benchmark/third_party/googletest/stamp/googletest-install	5624a90c4a50e798
+1251	1267	1733252747830001906	stamp/googletest-test	b6ab82fd8c17169c
+1251	1267	1733252747830001906	/Users/gayathriaravindan/Desktop/Portfolio/CPP/op-mem-allocator/cmake-build-debug/external/benchmark/third_party/googletest/stamp/googletest-test	b6ab82fd8c17169c
+1267	1289	1733252747852313069	CMakeFiles/googletest-complete	70a43d6cb18027dc
+1267	1289	1733252747852313069	stamp/googletest-done	70a43d6cb18027dc
+1267	1289	1733252747852313069	/Users/gayathriaravindan/Desktop/Portfolio/CPP/op-mem-allocator/cmake-build-debug/external/benchmark/third_party/googletest/CMakeFiles/googletest-complete	70a43d6cb18027dc
+1267	1289	1733252747852313069	/Users/gayathriaravindan/Desktop/Portfolio/CPP/op-mem-allocator/cmake-build-debug/external/benchmark/third_party/googletest/stamp/googletest-done	70a43d6cb18027dc

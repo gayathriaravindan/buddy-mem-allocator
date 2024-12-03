@@ -1,0 +1,43 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Users/gayathriaravindan/Desktop/Portfolio/CPP/op-mem-allocator -B /Users/gayathriaravindan/Desktop/Portfolio/CPP/op-mem-allocator/cmake-build-debug
+-- Google Benchmark version: v1.9.1-2-g3d88affa, normalized to 1.9.1.2
+-- Enabling additional flags: -DINCLUDE_DIRECTORIES=/Users/gayathriaravindan/Desktop/Portfolio/CPP/op-mem-allocator/external/benchmark/include
+-- Performing Test HAVE_THREAD_SAFETY_ATTRIBUTES -- success
+-- Performing Test HAVE_STD_REGEX -- success
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK -- success
+-- Performing Test HAVE_PTHREAD_AFFINITY -- failed to compile
+-- Looking for Google Test sources
+-- Looking for Google Test sources in /Users/gayathriaravindan/Desktop/Portfolio/CPP/op-mem-allocator/external/benchmark/googletest
+CMake Warning at CMakeLists.txt:37 (message):
+  Did not find Google Test sources! Fetching from web...
+
+
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/gayathriaravindan/Desktop/Portfolio/CPP/op-mem-allocator/cmake-build-debug/external/benchmark/third_party/googletest
+[1/9] Creating directories for 'googletest'
+[2/9] Performing download step (git clone) for 'googletest'
+Cloning into 'src'...
+HEAD is now at f8d7d77c Bump version to v1.14 in preparation for release
+[3/9] Performing update step for 'googletest'
+[4/9] No patch step for 'googletest'
+[5/9] No configure step for 'googletest'
+[6/9] No build step for 'googletest'
+[7/9] No install step for 'googletest'
+[8/9] No test step for 'googletest'
+[9/9] Completed 'googletest'
+-- Found Python3: /Library/Frameworks/Python.framework/Versions/3.12/bin/python3.12 (found version "3.12.0") found components: Interpreter 
+-- Performing Test HAVE_CXX_FLAG_WNO_UNUSED_VARIABLE
+-- Performing Test HAVE_CXX_FLAG_WNO_UNUSED_VARIABLE - Success
+-- Performing Test BENCHMARK_HAS_O3_FLAG
+-- Performing Test BENCHMARK_HAS_O3_FLAG - Success
+-- Performing Test BENCHMARK_HAS_DEPRECATED_DECLARATIONS_FLAG
+-- Performing Test BENCHMARK_HAS_DEPRECATED_DECLARATIONS_FLAG - Success
+-- Performing Test BENCHMARK_HAS_WNO_ODR
+-- Performing Test BENCHMARK_HAS_WNO_ODR - Success
+-- Performing Test BENCHMARK_HAS_WNO_LTO_TYPE_MISMATCH
+-- Performing Test BENCHMARK_HAS_WNO_LTO_TYPE_MISMATCH - Failed
+-- Configuring done (3.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/gayathriaravindan/Desktop/Portfolio/CPP/op-mem-allocator/cmake-build-debug

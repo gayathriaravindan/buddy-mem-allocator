@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "external/benchmark/third_party/googletest/build",
+		"source" : "cmake-build-debug/external/benchmark/third_party/googletest/src"
+	}
+}
