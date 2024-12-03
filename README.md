@@ -1,1 +1,1 @@
-# High-Performance Multithreaded Memory Allocator
+# Multithreaded Buddy Memory Allocator
