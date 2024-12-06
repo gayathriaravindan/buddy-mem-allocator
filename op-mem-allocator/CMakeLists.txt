@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.28)
 
 #project name and version
-project(High-Performance_Multithreaded_Memory_Allocator VERSION 1.0)
+project(Multithreaded_Buddy_Memory_Allocator VERSION 1.0)
 
 #C++ standard
 set(CMAKE_CXX_STANDARD 17)

@@ -1,6 +1,39 @@
 #include <iostream>
+#include "memoryallocator.h"
+#include <unistd.h>
+#include <vector>
+// #include <benchmark/benchmark.h>
+
+void initialize_tests();
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+    //initialize_tests();
 }
+
+void initialize_tests() {
+    std::vector<size_t> test = {
+            0, //0 bytes, should return error
+            1,
+            128,
+            1024, //1 KB
+            16384, //1 Page (on dev system)
+            20000,
+            32768,
+            50000,
+            123456,
+            1048576, //1 MB
+            1073741824, //1 GB
+            2147483648, //2 GB
+            static_cast<size_t>(-1) //max value of size_t, should return error
+    };
+
+    for (size_t size : test) {
+        std::cout << "size: " << size << "...";
+        if (initialize(size)) {
+            std::cout << "worked!" << std::endl;
+        } else {
+            std::cout << "error!" << std::endl;
+        }
+    }
+}
+

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/gayathriaravindan/Desktop/Portfolio/CPP/op-mem-allocator/cmake-build-debug/external/benchmark/third_party/googletest/src
+# Install script for directory: /Users/gayathriaravindan/Desktop/Portfolio/CPP/buddy-mem-allocator/op-mem-allocator/external/benchmark/googletest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/gayathriaravindan/Desktop/Portfolio/CPP/op-mem-allocator/cmake-build-debug/external/benchmark/third_party/googletest/build/googlemock/cmake_install.cmake")
+  include("/Users/gayathriaravindan/Desktop/Portfolio/CPP/buddy-mem-allocator/op-mem-allocator/cmake-build-debug/external/benchmark/third_party/googletest/build/googlemock/cmake_install.cmake")
 
 endif()
 

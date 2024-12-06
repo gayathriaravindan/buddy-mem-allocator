@@ -1,4 +1,4 @@
-# Install script for directory: /Users/gayathriaravindan/Desktop/Portfolio/CPP/op-mem-allocator/external/benchmark/test
+# Install script for directory: /Users/gayathriaravindan/Desktop/Portfolio/CPP/buddy-mem-allocator/op-mem-allocator/external/benchmark/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

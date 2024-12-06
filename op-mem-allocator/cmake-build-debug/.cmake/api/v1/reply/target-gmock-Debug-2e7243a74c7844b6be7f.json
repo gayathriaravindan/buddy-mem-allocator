@@ -1,0 +1,234 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/libgmockd.a"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"cxx_library_with_type",
+			"cxx_library",
+			"install",
+			"install_project",
+			"target_link_libraries",
+			"target_compile_options",
+			"include",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"external/benchmark/googletest/googletest/cmake/internal_utils.cmake",
+			"external/benchmark/googletest/googlemock/CMakeLists.txt",
+			"external/benchmark/cmake/GoogleTest.cmake",
+			"external/benchmark/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 101,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 202,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 150,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 121,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 332,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 102,
+				"parent" : 0
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 345,
+				"parent" : 7
+			},
+			{
+				"file" : 2,
+				"parent" : 8
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 47,
+				"parent" : 9
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 334,
+				"parent" : 7
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 79,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety -g -std=c++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fvisibility=hidden -fvisibility-inlines-hidden -fcolor-diagnostics"
+				},
+				{
+					"fragment" : "-Wall -Wshadow -Werror -Wconversion -DGTEST_HAS_PTHREAD=1 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Wchar-subscripts -Winline -Wredundant-decls"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-w"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "HAVE_POSIX_REGEX"
+				},
+				{
+					"define" : "HAVE_STD_REGEX"
+				},
+				{
+					"define" : "HAVE_STEADY_CLOCK"
+				},
+				{
+					"define" : "HAVE_THREAD_SAFETY_ATTRIBUTES"
+				},
+				{
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"define" : "_LARGEFILE64_SOURCE"
+				},
+				{
+					"define" : "_LARGEFILE_SOURCE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 11,
+					"path" : "/Users/gayathriaravindan/Desktop/Portfolio/CPP/buddy-mem-allocator/op-mem-allocator/external/benchmark/include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Users/gayathriaravindan/Desktop/Portfolio/CPP/buddy-mem-allocator/op-mem-allocator/external/benchmark/googletest/googlemock/include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Users/gayathriaravindan/Desktop/Portfolio/CPP/buddy-mem-allocator/op-mem-allocator/external/benchmark/googletest/googlemock"
+				},
+				{
+					"backtrace" : 12,
+					"isSystem" : true,
+					"path" : "/Users/gayathriaravindan/Desktop/Portfolio/CPP/buddy-mem-allocator/op-mem-allocator/external/benchmark/googletest/googletest/include"
+				},
+				{
+					"backtrace" : 12,
+					"isSystem" : true,
+					"path" : "/Users/gayathriaravindan/Desktop/Portfolio/CPP/buddy-mem-allocator/op-mem-allocator/external/benchmark/googletest/googletest"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "gtest::@5ff8b9901e0be19605f3"
+		}
+	],
+	"id" : "gmock::@23a1059f4e942023b5d4",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 5,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"name" : "gmock",
+	"nameOnDisk" : "libgmockd.a",
+	"paths" : 
+	{
+		"build" : "external/benchmark/third_party/googletest/build/googlemock",
+		"source" : "external/benchmark/googletest/googlemock"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/benchmark/googletest/googlemock/src/gmock-all.cc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

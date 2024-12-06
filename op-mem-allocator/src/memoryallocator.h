@@ -1,8 +1,10 @@
-//
-// Created by Gayathri Aravindan on 12/3/24.
-//
+#pragma once
+#include <unistd.h>
 
-#ifndef OP_MEM_ALLOCATOR_MEMORYALLOCATOR_H
-#define OP_MEM_ALLOCATOR_MEMORYALLOCATOR_H
+//definitions
+#define PAGESIZE sysconf(_SC_PAGESIZE)
 
-#endif //OP_MEM_ALLOCATOR_MEMORYALLOCATOR_H
+void* initialize(size_t mem_size);
+void* buddy_alloc(size_t size);
+void* buddy_realloc(size_t size);
+void buddy_dealloc(void* pointer);

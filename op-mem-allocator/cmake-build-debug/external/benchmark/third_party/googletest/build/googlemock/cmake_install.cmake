@@ -1,4 +1,4 @@
-# Install script for directory: /Users/gayathriaravindan/Desktop/Portfolio/CPP/op-mem-allocator/cmake-build-debug/external/benchmark/third_party/googletest/src/googlemock
+# Install script for directory: /Users/gayathriaravindan/Desktop/Portfolio/CPP/buddy-mem-allocator/op-mem-allocator/external/benchmark/googletest/googlemock
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -37,37 +37,37 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/Library/Developer/CommandLineTools/usr/bin/objdump")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "gmock" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/Users/gayathriaravindan/Desktop/Portfolio/CPP/op-mem-allocator/cmake-build-debug/external/benchmark/third_party/googletest/src/googlemock/include/")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/Users/gayathriaravindan/Desktop/Portfolio/CPP/buddy-mem-allocator/op-mem-allocator/external/benchmark/googletest/googlemock/include/")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "gmock" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/gayathriaravindan/Desktop/Portfolio/CPP/op-mem-allocator/cmake-build-debug/lib/libgmock.a")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgmock.a" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgmock.a")
-    execute_process(COMMAND "/Library/Developer/CommandLineTools/usr/bin/ranlib" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgmock.a")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/gayathriaravindan/Desktop/Portfolio/CPP/buddy-mem-allocator/op-mem-allocator/cmake-build-debug/lib/libgmockd.a")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgmockd.a" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgmockd.a")
+    execute_process(COMMAND "/Library/Developer/CommandLineTools/usr/bin/ranlib" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgmockd.a")
   endif()
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "gmock" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/gayathriaravindan/Desktop/Portfolio/CPP/op-mem-allocator/cmake-build-debug/lib/libgmock_main.a")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgmock_main.a" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgmock_main.a")
-    execute_process(COMMAND "/Library/Developer/CommandLineTools/usr/bin/ranlib" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgmock_main.a")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/gayathriaravindan/Desktop/Portfolio/CPP/buddy-mem-allocator/op-mem-allocator/cmake-build-debug/lib/libgmock_maind.a")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgmock_maind.a" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgmock_maind.a")
+    execute_process(COMMAND "/Library/Developer/CommandLineTools/usr/bin/ranlib" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgmock_maind.a")
   endif()
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "gmock" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/Users/gayathriaravindan/Desktop/Portfolio/CPP/op-mem-allocator/cmake-build-debug/external/benchmark/third_party/googletest/build/googletest/generated/gmock.pc")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/Users/gayathriaravindan/Desktop/Portfolio/CPP/buddy-mem-allocator/op-mem-allocator/cmake-build-debug/external/benchmark/third_party/googletest/build/googletest/generated/gmock.pc")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "gmock" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/Users/gayathriaravindan/Desktop/Portfolio/CPP/op-mem-allocator/cmake-build-debug/external/benchmark/third_party/googletest/build/googletest/generated/gmock_main.pc")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/Users/gayathriaravindan/Desktop/Portfolio/CPP/buddy-mem-allocator/op-mem-allocator/cmake-build-debug/external/benchmark/third_party/googletest/build/googletest/generated/gmock_main.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/gayathriaravindan/Desktop/Portfolio/CPP/op-mem-allocator/cmake-build-debug/external/benchmark/third_party/googletest/build/googletest/cmake_install.cmake")
+  include("/Users/gayathriaravindan/Desktop/Portfolio/CPP/buddy-mem-allocator/op-mem-allocator/cmake-build-debug/external/benchmark/third_party/googletest/build/googletest/cmake_install.cmake")
 
 endif()
 

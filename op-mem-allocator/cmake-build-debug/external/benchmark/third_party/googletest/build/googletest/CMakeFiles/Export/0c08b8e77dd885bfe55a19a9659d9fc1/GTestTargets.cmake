@@ -59,9 +59,7 @@ endif()
 add_library(GTest::gtest STATIC IMPORTED)
 
 set_target_properties(GTest::gtest PROPERTIES
-  INTERFACE_COMPILE_FEATURES "cxx_std_14"
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
-  INTERFACE_LINK_LIBRARIES "Threads::Threads"
   INTERFACE_SYSTEM_INCLUDE_DIRECTORIES "\$<TARGET_PROPERTY:GTest::gtest,INTERFACE_INCLUDE_DIRECTORIES>"
 )
 
@@ -69,9 +67,7 @@ set_target_properties(GTest::gtest PROPERTIES
 add_library(GTest::gtest_main STATIC IMPORTED)
 
 set_target_properties(GTest::gtest_main PROPERTIES
-  INTERFACE_COMPILE_FEATURES "cxx_std_14"
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
-  INTERFACE_LINK_LIBRARIES "Threads::Threads;GTest::gtest"
   INTERFACE_SYSTEM_INCLUDE_DIRECTORIES "\$<TARGET_PROPERTY:GTest::gtest_main,INTERFACE_INCLUDE_DIRECTORIES>"
 )
 
@@ -79,9 +75,7 @@ set_target_properties(GTest::gtest_main PROPERTIES
 add_library(GTest::gmock STATIC IMPORTED)
 
 set_target_properties(GTest::gmock PROPERTIES
-  INTERFACE_COMPILE_FEATURES "cxx_std_14"
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
-  INTERFACE_LINK_LIBRARIES "Threads::Threads;GTest::gtest"
   INTERFACE_SYSTEM_INCLUDE_DIRECTORIES "\$<TARGET_PROPERTY:GTest::gmock,INTERFACE_INCLUDE_DIRECTORIES>"
 )
 
@@ -89,15 +83,9 @@ set_target_properties(GTest::gmock PROPERTIES
 add_library(GTest::gmock_main STATIC IMPORTED)
 
 set_target_properties(GTest::gmock_main PROPERTIES
-  INTERFACE_COMPILE_FEATURES "cxx_std_14"
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
-  INTERFACE_LINK_LIBRARIES "Threads::Threads;GTest::gmock"
   INTERFACE_SYSTEM_INCLUDE_DIRECTORIES "\$<TARGET_PROPERTY:GTest::gmock_main,INTERFACE_INCLUDE_DIRECTORIES>"
 )
-
-if(CMAKE_VERSION VERSION_LESS 2.8.12)
-  message(FATAL_ERROR "This file relies on consumers using CMake 2.8.12 or greater.")
-endif()
 
 # Load information for each installed configuration.
 file(GLOB _cmake_config_files "${CMAKE_CURRENT_LIST_DIR}/GTestTargets-*.cmake")

@@ -2,37 +2,37 @@
 	"sources" : 
 	[
 		{
-			"file" : "/Users/gayathriaravindan/Desktop/Portfolio/CPP/op-mem-allocator/cmake-build-debug/external/benchmark/third_party/googletest/CMakeFiles/googletest"
+			"file" : "/Users/gayathriaravindan/Desktop/Portfolio/CPP/buddy-mem-allocator/op-mem-allocator/cmake-build-debug/external/benchmark/third_party/googletest/CMakeFiles/googletest"
 		},
 		{
-			"file" : "/Users/gayathriaravindan/Desktop/Portfolio/CPP/op-mem-allocator/cmake-build-debug/external/benchmark/third_party/googletest/CMakeFiles/googletest.rule"
+			"file" : "/Users/gayathriaravindan/Desktop/Portfolio/CPP/buddy-mem-allocator/op-mem-allocator/cmake-build-debug/external/benchmark/third_party/googletest/CMakeFiles/googletest.rule"
 		},
 		{
-			"file" : "/Users/gayathriaravindan/Desktop/Portfolio/CPP/op-mem-allocator/cmake-build-debug/external/benchmark/third_party/googletest/CMakeFiles/googletest-complete.rule"
+			"file" : "/Users/gayathriaravindan/Desktop/Portfolio/CPP/buddy-mem-allocator/op-mem-allocator/cmake-build-debug/external/benchmark/third_party/googletest/CMakeFiles/googletest-complete.rule"
 		},
 		{
-			"file" : "/Users/gayathriaravindan/Desktop/Portfolio/CPP/op-mem-allocator/cmake-build-debug/external/benchmark/third_party/googletest/stamp/googletest-build.rule"
+			"file" : "/Users/gayathriaravindan/Desktop/Portfolio/CPP/buddy-mem-allocator/op-mem-allocator/cmake-build-debug/external/benchmark/third_party/googletest/src/googletest-stamp/googletest-build.rule"
 		},
 		{
-			"file" : "/Users/gayathriaravindan/Desktop/Portfolio/CPP/op-mem-allocator/cmake-build-debug/external/benchmark/third_party/googletest/stamp/googletest-configure.rule"
+			"file" : "/Users/gayathriaravindan/Desktop/Portfolio/CPP/buddy-mem-allocator/op-mem-allocator/cmake-build-debug/external/benchmark/third_party/googletest/src/googletest-stamp/googletest-configure.rule"
 		},
 		{
-			"file" : "/Users/gayathriaravindan/Desktop/Portfolio/CPP/op-mem-allocator/cmake-build-debug/external/benchmark/third_party/googletest/stamp/googletest-download.rule"
+			"file" : "/Users/gayathriaravindan/Desktop/Portfolio/CPP/buddy-mem-allocator/op-mem-allocator/cmake-build-debug/external/benchmark/third_party/googletest/src/googletest-stamp/googletest-download.rule"
 		},
 		{
-			"file" : "/Users/gayathriaravindan/Desktop/Portfolio/CPP/op-mem-allocator/cmake-build-debug/external/benchmark/third_party/googletest/stamp/googletest-install.rule"
+			"file" : "/Users/gayathriaravindan/Desktop/Portfolio/CPP/buddy-mem-allocator/op-mem-allocator/cmake-build-debug/external/benchmark/third_party/googletest/src/googletest-stamp/googletest-install.rule"
 		},
 		{
-			"file" : "/Users/gayathriaravindan/Desktop/Portfolio/CPP/op-mem-allocator/cmake-build-debug/external/benchmark/third_party/googletest/stamp/googletest-mkdir.rule"
+			"file" : "/Users/gayathriaravindan/Desktop/Portfolio/CPP/buddy-mem-allocator/op-mem-allocator/cmake-build-debug/external/benchmark/third_party/googletest/src/googletest-stamp/googletest-mkdir.rule"
 		},
 		{
-			"file" : "/Users/gayathriaravindan/Desktop/Portfolio/CPP/op-mem-allocator/cmake-build-debug/external/benchmark/third_party/googletest/stamp/googletest-patch.rule"
+			"file" : "/Users/gayathriaravindan/Desktop/Portfolio/CPP/buddy-mem-allocator/op-mem-allocator/cmake-build-debug/external/benchmark/third_party/googletest/src/googletest-stamp/googletest-patch.rule"
 		},
 		{
-			"file" : "/Users/gayathriaravindan/Desktop/Portfolio/CPP/op-mem-allocator/cmake-build-debug/external/benchmark/third_party/googletest/stamp/googletest-test.rule"
+			"file" : "/Users/gayathriaravindan/Desktop/Portfolio/CPP/buddy-mem-allocator/op-mem-allocator/cmake-build-debug/external/benchmark/third_party/googletest/src/googletest-stamp/googletest-test.rule"
 		},
 		{
-			"file" : "/Users/gayathriaravindan/Desktop/Portfolio/CPP/op-mem-allocator/cmake-build-debug/external/benchmark/third_party/googletest/stamp/googletest-update.rule"
+			"file" : "/Users/gayathriaravindan/Desktop/Portfolio/CPP/buddy-mem-allocator/op-mem-allocator/cmake-build-debug/external/benchmark/third_party/googletest/src/googletest-stamp/googletest-update.rule"
 		}
 	],
 	"target" : 
