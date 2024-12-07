@@ -1,10 +1,14 @@
 #include <iostream>
-#include "memoryallocator.h"
 #include <unistd.h>
 #include <vector>
 // #include <benchmark/benchmark.h>
+#include "memoryallocator.h"
 
 void initialize_tests();
+void treenode_tests();
+void buddy_alloc_tests();
+void buddy_realloc_tests();
+void buddy_dealloc_tests();
 
 int main() {
     //initialize_tests();
@@ -24,7 +28,7 @@ void initialize_tests() {
             1048576, //1 MB
             1073741824, //1 GB
             2147483648, //2 GB
-            static_cast<size_t>(-1) //max value of size_t, should return error
+            static_cast<size_t>(-1) //max value of size_t, should return error (will overflow to 0)
     };
 
     for (size_t size : test) {
@@ -35,5 +39,21 @@ void initialize_tests() {
             std::cout << "error!" << std::endl;
         }
     }
+}
+
+void treenode_tests() {
+
+}
+
+void buddy_alloc_tests() {
+
+}
+
+void buddy_realloc_tests() {
+
+}
+
+void buddy_dealloc_tests() {
+
 }
 

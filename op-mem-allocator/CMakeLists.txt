@@ -15,7 +15,16 @@ add_subdirectory(external/benchmark)
 find_package(Threads REQUIRED)
 
 #executable
-add_executable(MemoryAllocator src/main.cpp src/memoryallocator.cpp src/memoryallocator.h)
+add_executable(MemoryAllocator
+        src/main.cpp
+        src/memoryallocator.cpp
+        src/memoryallocator.h
+        src/treenode.cpp
+        src/treenode.h
+)
 
 #link libraries
-target_link_libraries(MemoryAllocator benchmark::benchmark Threads::Threads)
+target_link_libraries(MemoryAllocator
+        benchmark::benchmark
+        Threads::Threads
+)

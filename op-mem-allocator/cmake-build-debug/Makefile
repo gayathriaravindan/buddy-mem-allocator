@@ -859,6 +859,30 @@ src/memoryallocator.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MemoryAllocator.dir/build.make CMakeFiles/MemoryAllocator.dir/src/memoryallocator.cpp.s
 .PHONY : src/memoryallocator.cpp.s
 
+src/treenode.o: src/treenode.cpp.o
+.PHONY : src/treenode.o
+
+# target to build an object file
+src/treenode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MemoryAllocator.dir/build.make CMakeFiles/MemoryAllocator.dir/src/treenode.cpp.o
+.PHONY : src/treenode.cpp.o
+
+src/treenode.i: src/treenode.cpp.i
+.PHONY : src/treenode.i
+
+# target to preprocess a source file
+src/treenode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MemoryAllocator.dir/build.make CMakeFiles/MemoryAllocator.dir/src/treenode.cpp.i
+.PHONY : src/treenode.cpp.i
+
+src/treenode.s: src/treenode.cpp.s
+.PHONY : src/treenode.s
+
+# target to generate assembly for a file
+src/treenode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MemoryAllocator.dir/build.make CMakeFiles/MemoryAllocator.dir/src/treenode.cpp.s
+.PHONY : src/treenode.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -927,6 +951,9 @@ help:
 	@echo "... src/memoryallocator.o"
 	@echo "... src/memoryallocator.i"
 	@echo "... src/memoryallocator.s"
+	@echo "... src/treenode.o"
+	@echo "... src/treenode.i"
+	@echo "... src/treenode.s"
 .PHONY : help
 
 
