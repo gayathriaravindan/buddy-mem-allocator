@@ -5,9 +5,7 @@
 #include "memoryallocator.h"
 
 void initialize_tests();
-void treenode_tests();
 void buddy_alloc_tests();
-void buddy_realloc_tests();
 void buddy_dealloc_tests();
 
 int main() {
@@ -41,15 +39,7 @@ void initialize_tests() {
     }
 }
 
-void treenode_tests() {
-
-}
-
 void buddy_alloc_tests() {
-
-}
-
-void buddy_realloc_tests() {
 
 }
 

@@ -16,8 +16,20 @@ bool treenode::is_free() const {
     return free;
 }
 
-bool treenode::is_leaf() const {
-    return left == nullptr && right == nullptr;
+treenode* treenode::get_left() const {
+    return left;
+}
+
+treenode* treenode::get_right() const {
+    return right;
+}
+
+treenode* treenode::get_parent() const {
+    return parent;
+}
+
+void treenode::set_free(bool f) {
+    free = f;
 }
 
 void treenode::split() {

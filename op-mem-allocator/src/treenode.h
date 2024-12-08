@@ -18,7 +18,13 @@ public:
 
     bool is_free() const;
 
-    bool is_leaf() const;
+    treenode* get_left() const;
+
+    treenode* get_right() const;
+
+    treenode* get_parent() const;
+
+    void set_free(bool f);
 
     void split();
 
